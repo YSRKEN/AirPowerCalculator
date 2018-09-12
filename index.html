@@ -6,7 +6,14 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <title>艦これ 制空計算機B</title>
     <meta name="description" content="（18初秋イベ随時対応）ブラウザ版艦これの計算機です。基地航空隊による敵制空値減少を推定し、制空権（制空状態）を表示します。">
-    <link href="css/jquery-ui.min.css" rel="stylesheet" />
+    <!--rel="canonical"設定-->
+    <!--topentry-->
+    <link rel="canonical" href="https://air-calculator.thread.jp"/>
+    <!--/topentry-->
+
+    <!--noindex、nofollow、noarchive設定-->
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <!-- <link href="css/jquery-ui.min.css" rel="stylesheet" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/bootstrap-select.min.css" rel="stylesheet" />
     <link href="css/bootstrap-slider.min.css" rel="stylesheet" />
@@ -22,23 +29,21 @@
     <script type="text/javascript" src="js/footerFixed.js"></script>
     <script type="text/javascript" src="js/highcharts.js"></script>
     <script type="text/javascript" src="js/highcharts-more.js"></script>
-    <!-- <script type="text/javascript" src="js/promise.min.js"></script> -->
 
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript" src="js/function_html.js"></script>
     <script type="text/javascript" src="js/function_common.js"></script>
     <script type="text/javascript" src="js/function_input.js"></script>
     <script type="text/javascript" src="js/function_dnd.js"></script>
-    <script type="text/javascript" src="js/function_cal.js"></script>
+    <script type="text/javascript" src="js/function_cal.js"></script> -->
 </head>
 <body>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       console.info("index.html display start");
    </script>
     <div class="wrapper">
         <header>
             <h1>制空計算機B改【v2.0.0】</h1>
-            <!-- <div style="margin-bottom:5px;">本サイトはブラウザ版艦これの計算機です。基地航空隊による敵制空値減少を推定し、制空状態を表示します。</div> -->
             <div class="option-input">
                 <div class="form-check form-check-inline">
                     <select class='selectpicker area' id="history-name">
@@ -163,12 +168,8 @@
             </section>
         </article>
         <div class="dialog" id="dialog-message"></div>
-        <div class="dialog" id="dialog-select-ship">
-            <!-- <script type="text/javascript">displayList('ship')</script> -->
-        </div>
-        <div class="dialog" id="dialog-select-equipment">
-            <!-- <script type="text/javascript">displayList('equipment')</script> -->
-        </div>
+        <div class="dialog" id="dialog-select-ship"></div>
+        <div class="dialog" id="dialog-select-equipment"></div>
         <span id="checkWidth"></span>
         <footer id="footer">
             <div>バグ・改善点・実装してほしい機能などの連絡はこちらまで：<a href="https://marshmallow-qa.com/aircalculator" target="_blank">マシュマロ</a></div>
@@ -178,6 +179,6 @@
     </div>
     <script type="text/javascript">
       console.info("index.html display end");
-   </script>
+   </script> -->
 </body>
 </html>
